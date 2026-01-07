@@ -2153,11 +2153,13 @@ public class ChatActivityEnterView extends BlurredFrameLayout implements Notific
                     } else {
                         if (recordAudioVideoRunnableStarted) {
                             AndroidUtilities.cancelRunOnUIThread(recordAudioVideoRunnable);
-                            if (sendVoiceEnabled && sendRoundEnabled) {
-                                delegate.onSwitchRecordMode(!isInVideoMode());
-                                setRecordVideoButtonVisible(!isInVideoMode(), true);
-                            } else {
-                                delegate.needShowMediaBanHint();
+                            if (!ExteraConfig.disableVideoMessageButton) {
+                                if (sendVoiceEnabled && sendRoundEnabled) {
+                                    delegate.onSwitchRecordMode(!isInVideoMode());
+                                    setRecordVideoButtonVisible(!isInVideoMode(), true);
+                                } else {
+                                    delegate.needShowMediaBanHint();
+                                }
                             }
                             performHapticFeedback(HapticFeedbackConstants.KEYBOARD_TAP);
                             sendAccessibilityEvent(AccessibilityEvent.TYPE_VIEW_CLICKED);

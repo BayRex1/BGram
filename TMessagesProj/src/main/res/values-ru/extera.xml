@@ -143,6 +143,7 @@
 
     <string name="StaticZoom">Статичный зум</string>
     <string name="StaticZoomInfo">Зум при записи видеосообщений не будет сбрасываться, если вы отпустите пальцы.</string>
+    <string name="DisableVideoMessageButton">Отключить кнопку видеосообщения</string>
     <string name="VideoMessagesCamera">Камера в видеосообщениях</string>
     <string name="VideoMessagesCameraRear">Основная</string>
     <string name="VideoMessagesCameraFront">Фронтальная</string>

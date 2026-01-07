@@ -120,6 +120,7 @@
     <string name="HideCameraTileInfo">Você ainda conseguirá abrir a câmera do sistema com um toque longo no botão de anexação no painel de mensagens.</string>
     <string name="StaticZoom">Zoom estático</string>
     <string name="StaticZoomInfo">Ao gravar mensagens de vídeo, o zoom não será redefinido se você soltar os dedos.</string>
+    <string name="DisableVideoMessageButton">Botão de desativação de mensagem de vídeo</string>
     <string name="VideoMessagesCamera">Câmera em Mensagens de Vídeo</string>
     <string name="VideoMessagesCameraRear">Traseira</string>
     <string name="VideoMessagesCameraFront">Frontal</string>

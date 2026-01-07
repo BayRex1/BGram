@@ -120,6 +120,7 @@
     <string name="HideCameraTileInfo">سيتم استبدال مربع الكاميرا بزر عائم. الضغط على الزر سيفتح كاميرا تيليجرام، استمرار الضغط عليها سيفتح كاميرا النظام.</string>
     <string name="StaticZoom">التكبير الثابت</string>
     <string name="StaticZoomInfo">عند تسجيل رسائل الفيديو، لن يعاد ضبط التكبير إذا قمت بتحرير أصابعك.</string>
+    <string name="DisableVideoMessageButton">تعطيل زر رسائل الفيديو</string>
     <string name="VideoMessagesCamera">الكاميرا في رسائل الفيديو</string>
     <string name="VideoMessagesCameraRear">الخلفية</string>
     <string name="VideoMessagesCameraFront">الأمامية</string>

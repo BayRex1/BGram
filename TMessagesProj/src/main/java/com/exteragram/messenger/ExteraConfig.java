@@ -115,6 +115,7 @@ public class ExteraConfig {
 
     public static boolean staticZoom;
     public static int videoMessagesCamera; // front rear ask
+    public static boolean disableVideoMessageButton;
     public static boolean rememberLastUsedCamera;
     public static boolean pauseOnMinimize;
     public static boolean disablePlayback;
@@ -246,6 +247,7 @@ public class ExteraConfig {
 
             staticZoom = preferences.getBoolean("staticZoom", false);
             videoMessagesCamera = preferences.getInt("videoMessagesCamera", 0);
+            disableVideoMessageButton = preferences.getBoolean("disableVideoMessageButton", false);
             rememberLastUsedCamera = preferences.getBoolean("rememberLastUsedCamera", false);
             pauseOnMinimize = preferences.getBoolean("pauseOnMinimize", true);
             doubleTapSeekDuration = preferences.getInt("doubleTapSeekDuration", 1);
