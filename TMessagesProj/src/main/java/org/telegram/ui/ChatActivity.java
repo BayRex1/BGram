@@ -1749,7 +1749,9 @@ public class ChatActivity extends BaseFragment implements NotificationCenter.Not
 
         @Override
         public void onSwitchRecordMode(boolean video) {
-            showVoiceHint(false, video);
+            if (!ExteraConfig.disableVideoMessageButton) {
+                showVoiceHint(false, video);
+            }
         }
 
         @Override

@@ -120,6 +120,7 @@
     <string name="HideCameraTileInfo">您仍然可以通过长按消息面板中的相机按钮来打开系统相机。</string>
     <string name="StaticZoom">静态缩放</string>
     <string name="StaticZoomInfo">当录制视频消息时，如果您放开手指，缩放将不会重置。</string>
+    <string name="DisableVideoMessageButton">禁用视频消息按钮</string>
     <string name="VideoMessagesCamera">视频消息中的相机方向</string>
     <string name="VideoMessagesCameraRear">后置</string>
     <string name="VideoMessagesCameraFront">前置</string>

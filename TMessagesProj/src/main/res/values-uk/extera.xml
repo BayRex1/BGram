@@ -123,6 +123,7 @@ CameraX підтримується тільки на
     <string name="HideCameraTileInfo">Ви все ще зможете відкрити системну камеру довгим натисканням на кнопку прикріпити на панелі повідомлень.</string>
     <string name="StaticZoom">Статичний масштаб</string>
     <string name="StaticZoomInfo">Під час запису відеоповідомлень масштаб не буде скинутий, якщо ви вивільните пальці.</string>
+    <string name="DisableVideoMessageButton">Вимкнути кнопку відеоповідомлення</string>
     <string name="VideoMessagesCamera">Камера в відеоповідомленнях</string>
     <string name="VideoMessagesCameraRear">Задня</string>
     <string name="VideoMessagesCameraFront">Фронтальна</string>

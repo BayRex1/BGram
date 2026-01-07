@@ -120,6 +120,7 @@
     <string name="HideCameraTileInfo">Il riquadro della fotocamera istantanea sarà sostituito da un pulsante flottante. Un singolo tocco sull\'icona aprirà la fotocamera di Telegram, mentre un tocco prolungato quella di sistema.</string>
     <string name="StaticZoom">Zoom statico</string>
     <string name="StaticZoomInfo">Quando registri i videomessaggi, lo zoom non sarà reimpostato se rilasci le dita.</string>
+    <string name="DisableVideoMessageButton">Disattiva il pulsante del messaggio video</string>
     <string name="VideoMessagesCamera">Fotocamera nei videomessaggi</string>
     <string name="VideoMessagesCameraRear">Posteriore</string>
     <string name="VideoMessagesCameraFront">Frontale</string>

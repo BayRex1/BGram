@@ -141,6 +141,7 @@ public class ChatsPreferencesActivity extends BasePreferencesActivity implements
     private int videosHeaderRow;
     private int staticZoomRow;
     private int videoMessagesCameraRow;
+    private int disableVideoMessageButtonRow;
     private int rememberLastUsedCameraRow;
     private int pauseOnMinimizeRow;
     private int disablePlaybackRow;
@@ -307,6 +308,7 @@ public class ChatsPreferencesActivity extends BasePreferencesActivity implements
         photosQualityChooserRow = newRow();
         hideCounterRow = newRow();
         hideCameraTileRow = newRow();
+        disableVideoMessageButtonRow = newRow();
         photosDividerRow = newRow();
 
         videosHeaderRow = newRow();
@@ -385,6 +387,9 @@ public class ChatsPreferencesActivity extends BasePreferencesActivity implements
         } else if (position == hideCameraTileRow) {
             ExteraConfig.editor.putBoolean("hideCameraTile", ExteraConfig.hideCameraTile ^= true).apply();
             ((TextCheckCell) view).setChecked(ExteraConfig.hideCameraTile);
+        } else if (position == disableVideoMessageButton) {
+            ExteraConfig.editor.putBoolean("disableVideoMessageButton", ExteraConfig.disableVideoMessageButton ^= true).apply();
+            ((TextCheckCell) view).setChecked(ExteraConfig.disableVideoMessageButton);
         } else if (position == pauseOnMinimizeRow) {
             ExteraConfig.editor.putBoolean("pauseOnMinimize", ExteraConfig.pauseOnMinimize ^= true).apply();
             ((TextCheckCell) view).setChecked(ExteraConfig.pauseOnMinimize);
@@ -657,6 +662,8 @@ public class ChatsPreferencesActivity extends BasePreferencesActivity implements
                         textCheckCell.setTextAndValueAndCheck(LocaleController.getString("RememberLastUsedCamera", R.string.RememberLastUsedCamera), LocaleController.getString("RememberLastUsedCameraInfo", R.string.RememberLastUsedCameraInfo), ExteraConfig.rememberLastUsedCamera, true, true);
                     } else if (position == hideCameraTileRow) {
                         textCheckCell.setTextAndCheck(LocaleController.getString("HideCameraTile", R.string.HideCameraTile), ExteraConfig.hideCameraTile, false);
+                    } else if (position == disableVideoMessageButtonRow) {
+                        textCheckCell.setTextAndCheck(LocaleController.getString("DisableVideoMessageButton", R.string.DisableVideoMessageButton), ExteraConfig.disableVideoMessageButton, false);
                     } else if (position == pauseOnMinimizeRow) {
                         textCheckCell.setTextAndValueAndCheck(LocaleController.getString("PauseOnMinimize", R.string.PauseOnMinimize), LocaleController.getString("PauseOnMinimizeInfo", R.string.PauseOnMinimizeInfo), ExteraConfig.pauseOnMinimize, true, true);
                     } else if (position == disablePlaybackRow) {

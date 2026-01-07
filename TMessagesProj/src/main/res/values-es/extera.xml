@@ -120,6 +120,7 @@
     <string name="HideCameraTileInfo">El mosaico de la cámara será reemplazado por un botón flotante. Al presionar el botón se iniciará la cámara de Telegram, al mantenerlo presionado se iniciará la cámara del sistema.</string>
     <string name="StaticZoom">Zoom estático</string>
     <string name="StaticZoomInfo">Al grabar videomensajes, el zoom no se restablecerá si sueltas los dedos.</string>
+    <string name="DisableVideoMessageButton">Desactivar el botón de mensaje de vídeo</string>
     <string name="VideoMessagesCamera">Cámara en videomensajes</string>
     <string name="VideoMessagesCameraRear">Trasera</string>
     <string name="VideoMessagesCameraFront">Frontal</string>
